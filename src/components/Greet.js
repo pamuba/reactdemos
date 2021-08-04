@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react'
 
 function Greet(props) {
+    const {name, heroName} = props
     return (
         <>
-            <h1>Hello {props.name} aka {props.heroName}</h1>
-            {props.children}
+            <h1>Hello {name} aka {heroName}</h1>
         </>
     )
 

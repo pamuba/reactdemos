@@ -4,6 +4,8 @@ import Message from './components/Message';
 import Welcome from './components/Welcome';
 import UseState from './components/UseState';
 import Counter from './components/Counter';
+import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
 
 function App() {
   return (
@@ -22,7 +24,10 @@ function App() {
         <UseState></UseState> */}
 
 
-        <Counter></Counter>
+        {/* <Counter></Counter> */}
+        {/* <Greet  name="Clark"  heroName="Superman"></Greet> */}
+        {/* <EventBind></EventBind> */}
+        <ParentComponent></ParentComponent>
       </header>
     </div>
   );
