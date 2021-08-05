@@ -13,6 +13,12 @@ import './components/appStyles.css'
 import styles from './components/appStyles.module.css'
 import Form from './components/Form'
 import ParentComp from './components/ParentComp'
+import RefsDemo from './components/RefsDemo'
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary'
+import PostList from './components/PostList'
+import PostForm from './components/PostForm';
+
 
 function App() {
   return (
@@ -44,7 +50,22 @@ function App() {
         {/* <Inline></Inline> */}
         {/* <Form></Form> */}
 
-        <ParentComp></ParentComp>
+        {/* <ParentComp></ParentComp> */}
+
+        {/* <RefsDemo></RefsDemo> */}
+        {/* <ErrorBoundary>
+          <Hero heroName="Superman"/>
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Hero heroName="Batman"/>
+        </ErrorBoundary>
+        <ErrorBoundary>
+          <Hero heroName="Joker"/>
+        </ErrorBoundary> */}
+
+        {/* <PostList></PostList> */}
+
+        <PostForm></PostForm>
       </header>
     </div>
   );
