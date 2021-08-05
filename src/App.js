@@ -12,6 +12,7 @@ import Inline from './components/Inline';
 import './components/appStyles.css'
 import styles from './components/appStyles.module.css'
 import Form from './components/Form'
+import ParentComp from './components/ParentComp'
 
 function App() {
   return (
@@ -41,7 +42,9 @@ function App() {
         {/* <Stylesheet primary={true}></Stylesheet> */}
         {/* CSS applis to every child component ass well */}
         {/* <Inline></Inline> */}
-        <Form></Form>
+        {/* <Form></Form> */}
+
+        <ParentComp></ParentComp>
       </header>
     </div>
   );
