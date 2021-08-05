@@ -6,11 +6,19 @@ import UseState from './components/UseState';
 import Counter from './components/Counter';
 import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
+import Lists from './components/Lists';
+import Stylesheet from './components/Stylesheet'
+import Inline from './components/Inline';
+import './components/appStyles.css'
+import styles from './components/appStyles.module.css'
+import Form from './components/Form'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h1 className="error">Error</h1>
+        <h1 className={styles.success}>Success</h1>
         {/* <Greet  name="Bruce"  heroName="Batman">
           <p>lorem5 lorem5 lorem5 lorem5 lorem5</p>
           <button>CLICK</button>
@@ -27,7 +35,13 @@ function App() {
         {/* <Counter></Counter> */}
         {/* <Greet  name="Clark"  heroName="Superman"></Greet> */}
         {/* <EventBind></EventBind> */}
-        <ParentComponent></ParentComponent>
+        {/* <ParentComponent></ParentComponent> */}
+        {/* <Lists></Lists> */}
+
+        {/* <Stylesheet primary={true}></Stylesheet> */}
+        {/* CSS applis to every child component ass well */}
+        {/* <Inline></Inline> */}
+        <Form></Form>
       </header>
     </div>
   );
